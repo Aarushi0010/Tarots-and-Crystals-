@@ -1,0 +1,62 @@
+/* Entire page background */
+.about-us-page {
+    background-color: #f4e7d9; /* Different background for the page (light color) */
+    min-height: 100vh;
+    background-image: url('https://images.unsplash.com/flagged/photo-1624274555889-4a70c880579c?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  /* Boxes container */
+  .content-boxes {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+  }
+  
+  /* Left and Right Boxes */
+  .left-box, .right-box {
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%; /* Each box takes 45% of the container width */
+    color: whitesmoke;
+  }
+  
+  /* Image styling */
+  .reader-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Reader info */
+  .reader-info h2 {
+    color: #ffd700; /* Gold color for headings */
+  }
+  
+  .reader-info p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  /* Testimonials */
+  .testimonial {
+    margin-bottom: 20px;
+  }
+  
+  .testimonial p {
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #ffd700; /* Gold color for testimonials text */
+  }
+  
+  .testimonial p:last-child {
+    font-style: normal;
+    font-weight: bold;
+    color: whitesmoke;
+  }
+  

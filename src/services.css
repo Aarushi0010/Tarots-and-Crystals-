@@ -1,0 +1,61 @@
+.services-heading {
+    width: 100%; /* Ensure the heading takes up full width */
+    text-align: center;
+    font-size: 1.9rem;
+    color: #4a1f26; /* Deep purple color */
+    margin-bottom: 40px; /* Add some space below the heading */
+    
+    margin-top: 0px;
+  }
+
+.services-page {
+    background-color: #f4e7d9; 
+    background-image: url('https://images.unsplash.com/photo-1600429770067-380e847a6c86?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
+    padding: 10px;
+  }
+  
+  /* Container for service boxes */
+  .services-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    max-width: 1500px;
+    
+  }
+  
+  /* Styling for each service box */
+  .service-box {
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%; 
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  /* Image styling */
+  .service-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Heading styling */
+  .service-box h3 {
+    font-size: 1.8rem;
+    color: #602b33; 
+    margin-bottom: 10px;
+  }
+  
+  /* Description styling */
+  .service-box p {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.5;
+  }
+  

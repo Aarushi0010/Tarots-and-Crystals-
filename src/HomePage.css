@@ -1,0 +1,63 @@
+.homepage {
+    font-family: 'Arial, sans-serif';
+    text-align: center;
+    color: #fff;
+    background-color: #2e1a47; /* Deep purple background */
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Ensure the homepage itself fills the full viewport height */
+  }
+  
+  .hero-banner {
+    background-image: url('https://images.unsplash.com/photo-1615829676042-f8f0a12315b1?q=80&w=1880&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Set to 100vh to cover the full height of the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-content {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    width: 80%;
+    max-width: 900px;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+    color: whitesmoke; /* Gold color for the heading */
+  }
+  
+  .hero-content p {
+    font-size: 1.8rem;
+    color: whitesmoke; /* Light blue color for the subheading */
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  /* Individual option box styling */
+  .option-box {
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 100px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .option-box a {
+    color: #ffd700; /* Gold color for the links */
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .option-box:hover {
+    background-color: rgba(255, 255, 255, 0.4); /* Brighter on hover */
+  }
