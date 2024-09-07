@@ -1,0 +1,72 @@
+/* Entire Page Background */
+.shopping-page {
+    background-color: #f4e7d9; 
+    background-image: url('https://images.unsplash.com/photo-1673891290496-2c815f75f7f2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px;
+  }
+
+  .page-heading{
+    font-size: 2.5rem;
+    width : 100%;
+    text-align : center;
+    margin-bottom: 40px;
+  }
+  /* Container for Product Boxes */
+  .product-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  /* Individual Product Box Styling */
+  .product-box {
+    background-color: #000; /* Black background for each box */
+    color: #fff; /* White text color */
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%; /* Each box takes 30% of the container width */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    margin: 0 15px;
+  }
+  
+  /* Image Styling */
+  .product-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Product Description */
+  .product-description {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Button Group Styling */
+  .button-group {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .cart-button, .wishlist-button {
+    background-color: #2e1a47; /* Deep purple button background */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for buttons */
+  .cart-button:hover, .wishlist-button:hover {
+    background-color: #451f7a; /* Darker purple on hover */
+  }
+  
