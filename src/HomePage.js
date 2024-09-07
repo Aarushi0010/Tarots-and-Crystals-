@@ -22,7 +22,7 @@ const HomePage = () => {
               <a href="/services">Services</a>
             </div>
             <div className="option-box">
-              <a href="/shop">Shop</a>
+              <a href="/shopping-page">Shop</a>
             </div>
             <div className="option-box">
               <a href="/contact">Contact</a>
