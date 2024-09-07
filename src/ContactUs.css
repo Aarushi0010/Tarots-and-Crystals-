@@ -1,4 +1,4 @@
-/* Contact Page Layout */
+
 .contact-page {
     display: flex;
     flex-direction: column;
@@ -6,9 +6,9 @@
     width: 100%;
   }
   
-  /* Top Half with Image */
+ 
   .top-half {
-    flex: 1; /* Takes up the top half of the screen */
+    flex: 1; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,13 +19,13 @@
     height: auto;
   }
   
-  /* Bottom Half with Form */
+  
   .bottom-half {
-    flex: 1; /* Takes up the bottom half of the screen */
+    flex: 1; 
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f4f4f4; /* Light background color for the form */
+    background-color: #f4f4f4; 
   }
   
   /* Contact Form */
@@ -77,4 +77,3 @@
   .contact-form button:hover {
     background-color: #451f7a;
   }
-  
